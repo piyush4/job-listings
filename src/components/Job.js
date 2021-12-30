@@ -30,7 +30,7 @@ function Job(props){
     return (
         <div className={`job ${classToAdd}`} style={featuredStyle}>
             <div className="col1">
-                <img src = {svgDir('./'+props.image)}/>
+                <img src = {svgDir('./'+props.image)} alt={`${job.company} logo`}/>
             </div>
             
             <div className="col2">
